@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img
+{
+	position: absolute;
+	height: 150%;
+	margin: 0px !important;
+	padding: 0px !important;
+	border-radius: 50%;
+}
+nav.navbar-fixed-top
+{
+    padding: 0 100px 0 100px;
+    margin-top: 20px;
+}
+.navbar-right li:hover
+{
+    background-color: #000;
+}
+.navbar-right li a:hover
+{
+    color: #fff !important;
+    
+}
+.row-main
+{
+    padding: 80px;
+}
+.welcome
+{
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.row-main p
+{
+    margin-top: 10px !important;
+    margin-bottom: 50px;
+}
+.row-main a
+{
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: greenyellow;
+}
+.fa-arrow-right
+{
+    padding-left: 8px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    letter-spacing: 5px;
+}
+
+.img-circle
+{
+    height: 200px;
+    width: 200px;
+}
+#main
+{
+    padding-top: 50px;
+    color: #fff;
+    background-image: url(../img/back.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron, line,testimonial,project
+{
+    margin: 0 7 0 7;
+}
+.portfolio-image img
+{
+    height: 300px;
+    width: 300px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.portfolio-icons
+{
+    margin: 1.5px;
+    padding: 1.5px;
+    
+}
+span
+{
+    text-align: center;
+    font-size: 50px;
+}
+#testimonial
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 20px 0px;
+    padding: 50px 10px;
+    color: #fff;
+}
+#testimonial cite img
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-right: 30px
+}
+#testimonial p
+{
+    line-height: 25px;
+    letter-spacing: 0.30px;
+    padding-bottom: 25px;
+    text-align: justify;
+}
+h4
+{
+    letter-spacing: normal;
+}
+.social
+{
+    padding: 15 0 15 0;
+    text-align: center;
+}
+.social a
+{
+    padding-right: 15px
+}
+.fa
+{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.contact
+{
+	background-image: url(../img/contactbg.png);
+	color: #fff;
+}
+
+
+
+.subscribe-h
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer p a
+{
+    text-decoration: none;
+}
+footer strong
+{
+    color: red;
+}
+footer .niikar
+{
+    color: #000;
+    font-family: cursive;
+    font-size:18px
+}

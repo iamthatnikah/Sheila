@@ -1,0 +1,73 @@
+/* Registration*/
+.container div
+{
+	margin-bottom: 20px;
+}
+/* Login*/
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),url(../Assets/loginbackground/image2.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container
+{
+  height: 400px;
+  width: 350px !important;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 250px;
+  border: 1px solid black;
+  background-color:rgba(52, 73, 94, 0.5);
+  border-radius: 5px;
+}
+.container img
+{
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-bottom: 35px;
+}
+.email-input input
+{
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  height: 35px;
+  width: 300px;
+  font-size: 18px;
+  background: transparent;
+  border: hidden; 
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.password-input input
+{
+  padding: 0px 10px;
+  height: 35px;
+  width: 300px;
+  font-size: 18px;
+  background: transparent;
+  border: hidden;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+input:focus
+{
+	outline: none;
+}
+.password-forgot
+{
+  margin-top: 55px;
+}
+.password-forgot li a
+{
+	color: #fff;
+}

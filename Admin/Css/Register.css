@@ -1,0 +1,80 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	margin-top: 220px!important;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Assets/img/regback.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	backface-visibility: visible;
+	background-position: center;
+}
+.container
+{
+	height: 450px;
+	width: 800px!important;
+	margin: 85px auto;
+	background-color: rgba(52, 73, 94, 0.5);
+}
+.container .upload input
+{
+	border-bottom: none;
+	margin: 0px auto;
+	font-size: 15px;
+	padding-top: 7px;
+	text-align: center
+}
+.container div
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.container div input
+{
+	margin: 10px 20px;
+	height: 35px;
+	width: 300px;
+	border: none;
+	padding: 0 15px;
+	border-bottom: 1px solid #fff;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #fff;
+	background-blend-mode: color;
+	background: transparent;
+}
+input:focus
+{
+	outline: none;
+}
+div li
+{
+	height: 20px;
+	width: 200px;
+	display: inline-block;
+	margin: 0px 10px;
+}
+.row
+{
+	text-align: center;
+	margin: 0px 50px;
+}
+.row select
+{
+	padding: 5px;
+	backface-visibility: hidden;
+	background-color: transparent;
+	color: #fff;
+}
+.row option
+{
+	color: #000;
+}
+div li a
+{
+	color: #fff;
+	text-decoration: none;
+}
